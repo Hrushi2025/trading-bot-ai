@@ -1,4 +1,5 @@
-Auto-Trading Recommendation System
+##Auto-Trading Recommendation System
+---
 This project implements a smart auto-trading recommendation system with:
 
 Configurable strategy engine for buy/sell signals
@@ -12,7 +13,7 @@ Logging of AI-generated trade actions for transparency
 Trade simulation sandbox for backtesting and testing strategies
 
 Web dashboard using Streamlit for interactive usage and visualization
-
+---
 Features
 1. Recommendation Engine
 Uses technical analysis indicators like SMA (Simple Moving Average) and RSI (Relative Strength Index)
@@ -20,26 +21,26 @@ Uses technical analysis indicators like SMA (Simple Moving Average) and RSI (Rel
 Generates buy/sell signals based on strategy parameters and AI predictions
 
 User-configurable thresholds for overbought/oversold conditions and window sizes
-
+---
 2. Automated Trading
 For premium users, executes trades automatically based on recommendations
 
 Supports API endpoints for trade execution and integration
 
 Maintains logs of all AI-generated signals and trade decisions separately
-
+---
 3. Trade Simulation Sandbox
 Allows users to test strategies and simulate trades without risking actual capital
 
 Visualizes historical performance and key metrics to evaluate strategies
-
+---
 4. Streamlit Web Dashboard
 Interactive UI for users to select stock symbols, data periods, and strategy parameters
 
 Displays plots, trade signals, and key analytics in real-time
 
 Easy-to-use sidebar controls for configuration
-
+---
 Project Structure
 text
 
@@ -47,7 +48,7 @@ text
 
 Prerequisites
 Python 3.8 or higher
-
+---
 Virtual environment setup recommended
 
 Installed packages in requirements.txt, including:
@@ -57,7 +58,7 @@ streamlit
 pandas
 
 plotly
-
+---
 other dependencies as used in the code
 
 Setup and Installation
@@ -83,6 +84,7 @@ Run the Streamlit app:
 bash
 cd trading_project
 streamlit run app.py
+---
 Usage
 Use the sidebar to select stock symbols and data period.
 
@@ -93,7 +95,7 @@ Click "Run Analysis" to generate and view trade recommendations.
 Premium users can enable Auto-Trade to execute trades automatically.
 
 Use the simulation sandbox to backtest strategies before deploying.
-
+---
 Deployment
 This app can be deployed on Streamlit Cloud or any cloud VM with Python support.
 
@@ -105,7 +107,7 @@ Connect the repository on Streamlit Cloud.
 Set up required secrets or environment variables if any.
 
 Deploy and access your app instantly at the provided URL.
-
+---
 Manual VM Deployment
 Ensure Python, pip, and venv are installed.
 
@@ -114,12 +116,12 @@ Clone the repo and set up virtual environment & dependencies.
 Run the app with streamlit run app.py.
 
 Use a reverse proxy or tunneling tool (e.g., ngrok) to make the app accessible externally.
-
+---
 Logging and Transparency
 All AI-generated buy/sell signals and automated trade executions are logged separately.
 
 Logs are maintained for auditing and transparency.
-
+---
 Contributing
 Contributions are welcome! Please open issues or pull requests on GitHub.
 
