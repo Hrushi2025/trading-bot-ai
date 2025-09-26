@@ -1,0 +1,14 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore Python cache directories
+__pycache__/
+*.pyc
+
+# Ignore secrets file (crucial for security)
+secrets.toml
+
+# Ignore IDE-specific files (e.g., PyCharm)
+.idea/
+
+.env

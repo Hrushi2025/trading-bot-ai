@@ -1,0 +1,15 @@
+.
+├── auto_trading_project/
+│   ├── __init__.py
+│   ├── strategy.py
+│   ├── simulator.py
+│   ├── trade_executor.py  # (Future - can be a placeholder for now)
+│   ├── api.py             # (Future - for FastAPI/Flask)
+│   ├── database.py        # (Optional)
+│   ├── init_db.py         # (Optional)
+│   ├── populate_sample_data.py # (Optional)
+│   ├── sample_prices.csv
+│   ├── strategy_config.yaml # (To be created/added)
+│   └── app.py             # <-- New file for Streamlit
+├── README.md
+└── requirements.txt

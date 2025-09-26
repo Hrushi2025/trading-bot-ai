@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+yfinance
+# alpha-vantage # Uncomment if you are using Alpha Vantage
+# requests # If you use the 'requests' library for API calls

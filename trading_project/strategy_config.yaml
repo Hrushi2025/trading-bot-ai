@@ -1,0 +1,12 @@
+# auto_trading_project/strategy_config.yaml
+
+simple:
+  buy: 0.02
+  sell: 0.03
+  window_size: 5 # Example: Strategy-specific parameter
+
+# You can add more strategies here later if needed
+# rsi_strategy:
+#   buy_threshold: 30
+#   sell_threshold: 70
+#   window: 14
